@@ -1,0 +1,7 @@
+add_library(
+    wacky_src
+    src/wacky_src/wacky_math.c
+    src/wacky_src/wacky_math.h 
+)
+
+target_include_directories(EXEwacky PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}/src")

@@ -1,11 +1,8 @@
 cmake_minimum_required(VERSION 3.12)
-project(wacky v1)
+project(wacky)
 
-add_library(
-    libwacky
-    wacky_math.c
-    wacky_math.h 
-)
-add_executable(EXEwacky wacky.c)
+add_subdirectory(wacky_src)
+add_subdirectory(wacky_exe)
 
-target_link_libraries(EXEwacky PRIVATE libwacky)
+
+

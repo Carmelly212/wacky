@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "wacky_math.h"
+#include "wacky_src/wacky_math.h"
 
 int main(){
     srand(11);
