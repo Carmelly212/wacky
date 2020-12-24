@@ -1,0 +1,6 @@
+add_library(libwacky STATIC
+    src/files/wacky_math.c
+    src/files/wacky_math.h 
+)
+
+target_include_directories(wacky_exe PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}/src")
